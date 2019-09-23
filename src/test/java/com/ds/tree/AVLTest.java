@@ -11,7 +11,7 @@ import static org.hamcrest.CoreMatchers.is;
 public class AVLTest {
     @Test
     public void testInsert() {
-        AVL tree = new AVL();
+        AVL<Integer> tree = new AVL<>();
         tree.insert(3);
         tree.insert(5);
         tree.insert(7);
