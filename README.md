@@ -32,6 +32,7 @@ f(n) = n2 + 2n + 3
 
 # Map
 * a key value collection
+* keys are unique
 
 # Heap
 * Min-Heap has every parent smaller than it's children. Hence the smallest element is always the root.
