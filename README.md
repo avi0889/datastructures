@@ -20,6 +20,25 @@ f(n) = n2 + 2n + 3
 
 * Big Omega tells us the lower bound of the runtime of a function, and Big O tells us the upper bound. Often times, they are different and we can’t put a guarantee on the runtime - it will vary between the two bounds and the inputs. But what happens when they’re the same? Then we can give a theta (Θ) bound - our function will run in that time, no matter what input we give it. In general, we always want to give a theta bound if possible because it is the most accurate and tightest bound. If we can’t give a theta bound, the next best thing is the tightest O bound possible.
 
+# Stack
+* lifo => last in first out
+
+# Queue
+* fifo => first in first out
+* Priority queue is an abstract data type which is like a regular queue or stack data structure, but where additionally each element has a "priority" associated with it. In a priority queue, an element with high priority is served before an element with low priority.
+
+# Set
+* a collection which doesn't allow duplicates 
+
+# Map
+* a key value collection
+
+# Heap
+* Min-Heap has every parent smaller than it's children. Hence the smallest element is always the root.
+* Max-Heap has every parent larger than it's children. Hence the largest element is always the root.
+
+# TREES
+
 # BST
 * Can get skewed if elements are inserted in sorted order
 
