@@ -80,3 +80,7 @@ f(n) = n2 + 2n + 3
 * The B* tree balances more neighboring internal nodes to keep the internal nodes more densely packed.
 * As the most costly part of operation of inserting the node in B-tree is splitting the node, B*-trees are created to postpone splitting operation as long as they can.[3] To maintain this, instead of immediately splitting up a node when it gets full, its keys are shared with a node next to it. This spill operation is less costly to do than split, because it requires only shifting the keys between existing nodes, not allocating memory for a new one.
 
+# Segment Tree
+* Used for storing information about intervals, allowing, querying which of the stored segments contain a given point.
+* It is, in principle, a static structure; that is, it's a structure that cannot be modified once it's built.
+* A segment tree for a set I of n intervals uses O(n log n) storage and can be built in O(n log n) time. Segment trees support searching for all the intervals that contain a query point in O(log n + k), k being the number of retrieved intervals or segments.
