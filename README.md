@@ -27,6 +27,16 @@ f(n) = n2 + 2n + 3
 * fifo => first in first out
 * Priority queue is an abstract data type which is like a regular queue or stack data structure, but where additionally each element has a "priority" associated with it. In a priority queue, an element with high priority is served before an element with low priority.
 
+# LinkedList
+* O(1) insertion
+* O(n) lookup
+
+# SkipList
+* O(logN) insertion
+* O(logN) lookup
+* It can get the best of array (for searching) while maintaining a linkedList-like structure that allows insertion- which is not possible in an array.
+* Fast search is made possible by maintaining a linked hierarchy of subsequences, with each successive subsequence skipping over fewer elements than the previous one
+
 # Set
 * a collection which doesn't allow duplicates 
 
